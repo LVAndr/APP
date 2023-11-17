@@ -7,4 +7,16 @@ git add . - добавить все файлы (промежуточное де�
 git commit -m 'message'- добавить файлы проекта с сообщением
 
 # Отмена изменений файлов
+git clean -f -                              #Untracked
 git restore - отмена изменений файла для # Modified
+git restore . - отмена изменений всех файлов # Modified
+
+
+git restore --staged test.html -    #Staged
+git reset -     #Staged
+
+git reset HEAD~   -       #Commited
+
+#Comitted
+
+
